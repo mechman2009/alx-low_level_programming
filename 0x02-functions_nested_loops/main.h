@@ -17,5 +17,3 @@ void print_times_table(int n);
 void num(int r, int n);
 
 #endif
-
-
