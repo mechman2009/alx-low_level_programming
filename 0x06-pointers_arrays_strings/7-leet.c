@@ -19,7 +19,6 @@ if (str[indx1] == leet[indx2] ||
 str[indx1] - 32 == leet[indx2]) 
 str[indx1] = indx2 + '0';
 }
-
 indx1++;
 }
 
