@@ -14,10 +14,11 @@ int b;
 while (*s)
 {
 for (b = 0; accept[b]; b++)
-}	        
+{	        
 if (*s == accept[b])
 return (s);
 }
+
 s++;
 }
 
