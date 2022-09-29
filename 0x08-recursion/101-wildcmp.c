@@ -6,6 +6,7 @@
 * @s2: second string that can contain * which replace any string
 * Return: 1 if macthing 0 ortherwise
 */
+
 int wildcmp(char *s1, char *s2)
 {
 	if (*s1 == '\0' && *s2 == '\0')
