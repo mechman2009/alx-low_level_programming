@@ -6,7 +6,7 @@
 * @ac: number of arguments
 * @av: double pointer to arguments
 *
-* Return:pointer to new string, or NULL if there is error
+* Return:pointer to new string, or NULL if error
 */
 char *argstostr(int ac, char **av)
 {
