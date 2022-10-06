@@ -26,13 +26,9 @@ int number(char *str)
 }
 
 /**
-*
 * free_everything - frees the memory
-*
 * @string: pointer values being passed for freeing
-*
 * @i: counter
-*
 */
 
 void free_everything(char **string, int i)
@@ -43,13 +39,9 @@ void free_everything(char **string, int i)
 }
 
 /**
-*
 * strtow - function that splits string into words
-*
 * @str: string being passed
-*
 * Return: null if string is empty or null or function fails
-*
 */
 char **strtow(char *str)
 {
