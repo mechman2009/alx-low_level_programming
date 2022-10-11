@@ -1,5 +1,1 @@
-C-Hello, World
-
-clear
-
-cd ..
+0x0D. C - Preprocessor
