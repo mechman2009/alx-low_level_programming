@@ -13,6 +13,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	char *n, *o;
 
 	int len_name = _strlen(name), len_owner = _strlen(owner), i;
+
 	pt = malloc(sizeof(dog_t));
 	if (!pt)
 		return (0);
@@ -48,8 +49,10 @@ dog_t *new_dog(char *name, float age, char *owner)
 * @s: string
 */
 int _strlen(char *s)
+
 {
 	int counter = 0;
+
 	while (s[counter] != 0)
 		counter++;
 	return (counter);
