@@ -8,6 +8,7 @@
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
 	unsigned int counter = 0;
+
 	while (counter < index)
 	{
 		if (head == NULL)
